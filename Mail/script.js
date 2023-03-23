@@ -1,5 +1,5 @@
-const mail = [mariorossimail, andrearossimail, lucarossimail]
-
+const mail = ['mariorossimail', 'andrearossimail', 'lucarossimail']
+console.log(mail)
 const mailutente = prompt('Inserisci la tua mail')
 console.log(mailutente)
 
@@ -11,7 +11,7 @@ for(let i = 0 < mail.length; i++;){
 }
 
 if (validated === 'true' ) {
-  document.getElementById('output') .innerHTML = (`Ciao! ${mailutente}la tua mail è stata convalidata!`)
+  document.getElementById('output').innerHTML = "Accesso riuscito!"
 } else{
-  document.getElementById('output') .innerHTML = (`Ciao! ${mailutente}la tua mail non è stata convalidata!`)
+  document.getElementById('output').innerHTML = "Accesso negato!"
 }
